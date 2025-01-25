@@ -39,8 +39,6 @@ export const updateTask = async (task: TaskModel) => {
   }
 
   redirect('/', RedirectType.push)
-  // setChecked(!checked)
-  // router.push('/')
 }
 
 export const removeTask = async (id: Number) => {
@@ -57,5 +55,4 @@ export const removeTask = async (id: Number) => {
   } 
 
   redirect('/', RedirectType.push)
-  // router.push('/')
 }

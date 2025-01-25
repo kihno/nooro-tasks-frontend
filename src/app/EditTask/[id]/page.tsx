@@ -1,7 +1,7 @@
 'use client'
 
-import { use, useEffect, useState } from "react"
-import { redirect, RedirectType, useParams } from "../../../../node_modules/next/navigation"
+import { useEffect, useState } from "react"
+import { useParams } from "../../../../node_modules/next/navigation"
 import TaskForm from "../../components/TaskForm"
 import { updateTask } from "@/app/actions"
 import { TaskModel } from "@/app/types"

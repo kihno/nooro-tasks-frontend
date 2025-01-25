@@ -1,4 +1,3 @@
-import NoTasks from "./components/NoTasks";
 import TaskButton from "./components/TaskButton";
 import Tasks from "./Tasks/page";
 
